@@ -1,5 +1,24 @@
-/*test*/
 body {
-  background: #ccc; }
+  background: #F2F2F2;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400; }
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px; }
+
+.elegant-form input[type="text"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid #CCC;
+  font-weight: 300;
+  padding: 5px 10px;
+  width: 100%;
+  transition: all 0.3s; }
+.elegant-form input[type="text"]:focus {
+  border-bottom: 1px solid #09BDAA; }
 
 /*# sourceMappingURL=style.css.map */
